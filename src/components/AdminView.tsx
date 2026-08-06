@@ -560,13 +560,13 @@ export const AdminView: React.FC<AdminViewProps> = ({
               <Sparkles className="h-4 w-4 text-indigo-600" /> AI Generation Engine & User Quotas
             </h3>
             <p className="text-xs text-slate-500">
-              Configure Google Gemini 3.6 Flash parameters and maximum generation limit per user.
+              Configure Email Generation AI parameters...
             </p>
 
             <div className="space-y-3 text-xs">
               <div className="rounded-xl bg-slate-50 p-3 dark:bg-slate-800/60">
                 <span className="font-bold text-slate-800 dark:text-slate-200">Active AI Model:</span>
-                <p className="text-indigo-600 font-mono text-xs font-bold mt-0.5">Gemini 3.6 Flash (Server Proxy Secured)</p>
+                <p className="text-indigo-600 font-mono text-xs font-bold mt-0.5">AI Language Model (Server Proxy Secured)</p>
               </div>
 
               <div>
