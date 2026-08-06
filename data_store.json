@@ -1,0 +1,163 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Nikita Chaudhari (Admin)",
+      "email": "nikitachaudhari7929@gmail.com",
+      "phone": "+91 98765 43210",
+      "profile": "",
+      "role": "Admin",
+      "created_at": "2026-08-06T02:39:01.943Z"
+    },
+    {
+      "id": 2,
+      "fullname": "Nikita Chaudhari (User)",
+      "email": "nikita.user@gmail.com",
+      "phone": "+91 98765 43210",
+      "profile": "",
+      "role": "User",
+      "created_at": "2026-08-06T02:39:01.944Z"
+    }
+  ],
+  "emails": [],
+  "drafts": [],
+  "templates": [
+    {
+      "id": 1,
+      "title": "Job Application - Software Engineer",
+      "category": "Job Application",
+      "subject": "Application for {Job Position} - {Your Name}",
+      "body": "<p>Dear Hiring Team,</p><p>I am excited to apply for the <strong>{Job Position}</strong> role at <strong>{Company}</strong>. With my background in software engineering, API integration, and database management, I am eager to contribute to your technical goals.</p><p>Looking forward to the opportunity to connect.</p><p>Best regards,<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 2,
+      "title": "Internship & Entry-Level Application",
+      "category": "Job Application",
+      "subject": "Application for {Internship Role} - {Your Name}",
+      "body": "<p>Dear Hiring Manager,</p><p>I am writing to express my strong enthusiasm for the <strong>{Internship Role}</strong> position at <strong>{Company Name}</strong>. As a passionate computer science graduate with hands-on project experience, I am eager to apply my skills to your team.</p><p>Please find my resume attached for your review.</p><p>Sincerely,<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 3,
+      "title": "Formal Leave Application",
+      "category": "Leave Request",
+      "subject": "Leave Application: {Your Name} - {Dates}",
+      "body": "<p>Dear {Manager Name},</p><p>Please accept this email as formal notice that I am requesting leave from {Start Date} to {End Date} due to {Reason}.</p><p>I will ensure all current tasks are updated. Thank you for considering my request.</p><p>Regards,<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 4,
+      "title": "Medical / Emergency Sick Leave",
+      "category": "Leave Request",
+      "subject": "Sick Leave Notice - {Your Name} - {Date}",
+      "body": "<p>Hi {Manager Name},</p><p>I am writing to inform you that I am unwell today due to {Medical Condition/Illness} and will be unable to attend work on {Date}.</p><p>I will monitor urgent emails periodically if my condition permits, or you can contact me via phone for urgent matters.</p><p>Thank you for understanding.<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 5,
+      "title": "Client Follow-up After Meeting",
+      "category": "Follow-up",
+      "subject": "Thank you for your time today - {Company}",
+      "body": "<p>Hi {Client Name},</p><p>Thank you for taking the time to speak with me today about {Topic}. Based on our discussion, here is a summary of next steps:</p><ul><li>Step 1: Review proposal</li><li>Step 2: Confirm schedule</li></ul><p>Please let me know if you have any questions.</p><p>Warmly,<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 6,
+      "title": "Post-Interview Follow-Up & Thank You",
+      "category": "Follow-up",
+      "subject": "Thank You - Interview for {Job Title} - {Your Name}",
+      "body": "<p>Dear {Interviewer Name},</p><p>Thank you so much for taking the time to interview me for the <strong>{Job Title}</strong> position today. I enjoyed learning more about {Company Name}'s upcoming projects.</p><p>Our conversation further confirmed my interest in joining your team. Please feel free to reach out if you need any additional information.</p><p>Best regards,<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 7,
+      "title": "Customer Support Resolution",
+      "category": "Customer Support",
+      "subject": "Update regarding Ticket #{Ticket Number}",
+      "body": "<p>Dear {Customer Name},</p><p>Thank you for reaching out to customer support. We have investigated the issue regarding {Issue Details} and resolved it successfully.</p><p>Please let us know if you need any further assistance!</p><p>Best regards,<br>Support Team</p>",
+      "is_default": true
+    },
+    {
+      "id": 8,
+      "title": "Service Outage & Apology Notice",
+      "category": "Customer Support",
+      "subject": "Service Update & Resolved Issue - {Company Name}",
+      "body": "<p>Dear Valued Customer,</p><p>We experienced a brief unexpected disruption on our platform earlier today affecting {Affected Service}. Our engineering team identified and resolved the root cause immediately.</p><p>We sincerely apologize for any inconvenience caused and appreciate your patience.</p><p>Warm regards,<br>Customer Experience Team</p>",
+      "is_default": true
+    },
+    {
+      "id": 9,
+      "title": "Business Proposal Pitch",
+      "category": "Business",
+      "subject": "Strategic Partnership Proposal - {Company Name}",
+      "body": "<p>Dear {Recipient Name},</p><p>I hope this email finds you well. I am writing on behalf of <strong>{Your Company}</strong> to explore a potential strategic collaboration in <strong>{Industry/Area}</strong>.</p><p>We believe combining our expertise can deliver great value to our clients. Please find our attached proposal for details.</p><p>Sincerely,<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 10,
+      "title": "Business Meeting Request & Agenda",
+      "category": "Business",
+      "subject": "Meeting Request: Discussion on {Topic} - {Company}",
+      "body": "<p>Hi {Recipient Name},</p><p>I would like to schedule a 30-minute meeting to discuss <strong>{Topic}</strong> and align on our joint priorities for {Quarter/Project}.</p><p>Please let me know if any of the following slots work for you: {Date/Time Options}.</p><p>Looking forward to our conversation.<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 11,
+      "title": "Cold Sales & Service Outreach",
+      "category": "Sales & Marketing",
+      "subject": "Quick question regarding {Company Name}'s email workflow",
+      "body": "<p>Hi {First Name},</p><p>I came across {Company Name} and was impressed by your recent growth. We help teams automate and optimize their client communications with AI-driven tools.</p><p>Would you be open to a quick 10-minute discovery call next Tuesday?</p><p>Best,<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 12,
+      "title": "Interview Invitation (HR)",
+      "category": "HR & Onboarding",
+      "subject": "Interview Invitation for {Job Title} - {Company Name}",
+      "body": "<p>Dear {Candidate Name},</p><p>Thank you for applying for the <strong>{Job Title}</strong> position at <strong>{Company Name}</strong>. We were very impressed with your application and would like to invite you for a virtual interview.</p><p>Please let us know your availability for this week.</p><p>Best regards,<br>HR Team</p>",
+      "is_default": true
+    },
+    {
+      "id": 13,
+      "title": "Academic Leave & Project Submission",
+      "category": "Academic & College",
+      "subject": "Project Submission & Approval Request - {Student Name}",
+      "body": "<p>Respected Professor {Professor Name},</p><p>I am submitting my final project report for the subject <strong>{Subject Name}</strong>. Please find the attached document for your review and evaluation.</p><p>Thank you for your guidance throughout the semester.</p><p>Yours obediently,<br>{Student Name}<br>Roll No: {Roll Number}</p>",
+      "is_default": true
+    },
+    {
+      "id": 14,
+      "title": "Networking & Coffee Chat Request",
+      "category": "Networking",
+      "subject": "Seeking advice on {Industry} / Coffee Chat Request",
+      "body": "<p>Dear {Name},</p><p>I have been following your impressive work in {Field/Industry} and greatly admire your achievements. As someone aspiring to excel in this field, I would love to learn from your experience.</p><p>If your schedule permits, would you be available for a brief 15-minute coffee chat or virtual call?</p><p>Warm regards,<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 15,
+      "title": "Weekly Project Status Update",
+      "category": "Project Update",
+      "subject": "Weekly Status Report: {Project Name} - {Date}",
+      "body": "<p>Hi Team,</p><p>Here is the weekly status update for <strong>{Project Name}</strong>:</p><ul><li><strong>Completed:</strong> Key modules developed & tested</li><li><strong>In Progress:</strong> UI refinements & database sync</li><li><strong>Blockers:</strong> None</li></ul><p>Please reach out if you have any questions.</p><p>Best,<br>{Your Name}</p>",
+      "is_default": true
+    },
+    {
+      "id": 16,
+      "title": "Payment Due & Invoice Reminder",
+      "category": "Invoicing & Payments",
+      "subject": "Invoice #{Invoice Number} Due Reminder - {Company}",
+      "body": "<p>Dear {Client Name},</p><p>This is a friendly reminder that Invoice <strong>#{Invoice Number}</strong> for <strong>{Amount}</strong> is due on <strong>{Due Date}</strong>.</p><p>Please find the invoice attached for reference. Let us know once the payment is processed.</p><p>Thank you for your business!</p><p>Best regards,<br>Finance Team</p>",
+      "is_default": true
+    }
+  ],
+  "favorites": [],
+  "activityLogs": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "action": "User Authenticated (Nikita Chaudhari (User) as User)",
+      "created_at": "2026-08-06T02:39:39.144Z"
+    }
+  ]
+}

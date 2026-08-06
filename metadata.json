@@ -1,0 +1,8 @@
+{
+  "name": "AI Email Writer",
+  "description": "Intelligent AI Email Generation & Management System with templates, grammar checker, analytics, and export tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
