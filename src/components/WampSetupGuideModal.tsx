@@ -190,7 +190,7 @@ requests==2.32.3
           <Download className="h-4 w-4 text-emerald-600" /> Step 1: Export Project as a ZIP File
         </h3>
         <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-          You can download this entire application codebase directly from the Google AI Studio interface:
+          Look at the top-right menu or left-hand panel in the editor.
         </p>
         <ol className="mt-2 list-decimal pl-5 text-xs text-slate-700 dark:text-slate-300 space-y-1">
           <li>Look at the top-right header menu or left-hand panel in <strong>Google AI Studio</strong>.</li>
