@@ -1,20 +1,109 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AI Email Writer
 
-# Run and deploy your AI Studio app
+## Overview
 
-This contains everything you need to run your app locally.
+AI Email Writer is an AI-powered web application that helps users create professional, personalized, and well-structured emails within seconds using the Google Gemini AI API. The application allows users to generate emails in multiple tones, save drafts, manage templates, and organize email history through a modern and responsive interface.
 
-View your app in AI Studio: https://ai.studio/apps/0d6703c9-77f0-4516-af31-ea1c9ae93f29
+---
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- 🤖 AI-powered email generation using Google Gemini AI
+- ✍️ Multiple writing tones (Professional, Formal, Friendly, Persuasive, Apologetic, Urgent, Sales, Networking)
+- 👤 User authentication and role-based access (Admin & User)
+- 📄 Save and manage email drafts
+- 📁 Create and manage reusable email templates
+- 📊 Email history and activity tracking
+- 🌙 Dark and Light mode support
+- 📱 Fully responsive user interface
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+### Backend
+- Node.js
+- Express.js
+- Google Gemini AI API
+
+### Database / Storage
+- JSON Data Store
+
+---
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Niks7929/ai-email-writer.git
+cd ai-email-writer
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Configure Environment Variables
+
+Create a `.env.local` file and add your Gemini API key.
+
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+```
+
+### Run the application
+
+```bash
+npm run dev
+```
+
+---
+
+## Project Structure
+
+```
+ai-email-writer/
+├── src/
+├── components/
+├── pages/
+├── services/
+├── public/
+├── package.json
+├── vite.config.ts
+└── README.md
+```
+
+---
+
+## Future Enhancements
+
+- Email scheduling
+- Attachment support
+- Export emails as PDF
+- Rich text editor
+- Multi-language email generation
+- Email sentiment analysis
+
+---
+
+## Author
+
+**Nikita Chaudhari**
+
+GitHub: https://github.com/Niks7929
+
+---
+
+## License
+
+This project is developed for educational and portfolio purposes.
