@@ -39,7 +39,7 @@ export const GeneratorView: React.FC<GeneratorViewProps> = ({
   const [form, setForm] = useState<GeneratorFormState>({
     purpose: initialEmail?.purpose || 'Job Application',
     recipientName: initialEmail?.recipient || 'Hiring Manager',
-    company: 'Google',
+    company: 'TCS',
     position: 'Python & Web Developer',
     subject: initialEmail?.subject || 'Application for Senior Python Developer Role',
     keywords: 'Python 3.13, Flask, SQL, Machine Learning, Fast API, Cloud Deployment',
@@ -51,7 +51,18 @@ export const GeneratorView: React.FC<GeneratorViewProps> = ({
 
   const [generatedHtml, setGeneratedHtml] = useState<string>(
     initialEmail?.content ||
-      `<p>Dear Hiring Manager,</p><p>I am writing to express my strong interest in the <strong>Python & Web Developer</strong> position at <strong>Google</strong>. With a robust background in building enterprise web applications, REST APIs, and database-driven tools, I am eager to contribute to your engineering goals.</p><p>My key expertise includes:</p><ul><li><strong>Backend Development:</strong> Python, Flask, Express.js, RESTful Architecture</li><li><strong>Database & Storage:</strong> MySQL, PostgreSQL, Query Optimization</li><li><strong>AI & Automation:</strong> Gemini API Integration, Machine Learning Workflows</li></ul><p>I welcome the opportunity to discuss how my skill set aligns with Google's technical vision. Thank you for your time and consideration.</p><p>Best regards,<br><strong>John Doe</strong></p>`
+      `<p>Dear Hiring Manager,
+
+I am writing to express my strong interest in the <strong>Python & Web Developer</strong> position at <strong>your organization</strong>. With a robust background in building enterprise web applications, REST APIs, and database-driven tools, I am eager to contribute to your engineering goals.
+
+...
+
+I welcome the opportunity to discuss how my skills can contribute to your organization's success.
+
+Thank you for your time and consideration.
+
+Best regards,
+<strong>John Doe</strong></p>`
   );
 
   const [isGenerating, setIsGenerating] = useState(false);
@@ -332,7 +343,7 @@ export const GeneratorView: React.FC<GeneratorViewProps> = ({
                 name="company"
                 value={form.company}
                 onChange={handleChange}
-                placeholder="e.g. Google"
+                placeholder="e.g. TCS, Infosys, Microsoft"
                 className="w-full rounded-lg border border-slate-200 bg-slate-50 p-2 text-xs text-slate-800 focus:border-indigo-500 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
               />
             </div>
