@@ -7,11 +7,11 @@ export const SubjectGeneratorView: React.FC = () => {
   const [keywords, setKeywords] = useState('Python Developer, Flask, Machine Learning');
   const [tone, setTone] = useState('Professional');
   const [subjects, setSubjects] = useState<string[]>([
-    'Application for Senior Python Developer Position - Google',
-    'Experienced Python & ML Engineer Interested in Google Team',
-    'Inquiry: Software Engineering Opportunities at Google',
-    'Python Developer with 4+ Years Experience - Job Application',
-    'Google Python Developer Role - Application & Portfolio',
+    'Application for Software Developer Position',
+  'Application for Python Developer Role',
+  'Experienced Full Stack Python Developer',
+  'Software Engineer Job Application',
+  'Application for Backend Developer Position',
   ]);
   const [loading, setLoading] = useState(false);
   const [copiedIdx, setCopiedIdx] = useState<number | null>(null);
